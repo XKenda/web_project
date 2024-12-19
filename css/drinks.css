@@ -1,0 +1,195 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #c5b6b6;
+    transition: background-color 0.3s, color 0.3s;
+/* border: 10px solid #f4f4f4; */
+background-color: rgb(115, 96, 79);
+
+background-image: url(/images/images.jpeg);
+text-shadow: 1px 1px 0 rgb(110, 85, 20);
+}
+
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    margin: 10px auto;
+    padding: 10px;
+    max-width: 400px;
+}
+
+button {
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #5a3d2e;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+/* Dark mode styles */
+body.dark {
+    background-color: #333;
+    color: white;
+}
+
+.featured-drinks, .coffee-beans {
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    margin: 2rem auto;
+    max-width: 1200px;
+}
+
+.drinks-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.drink-item {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.drink-item:hover {
+    transform: translateY(-5px);
+}
+
+.drink-image {
+    height: 250px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.espresso {
+    background-image: url('../images/espressojpg.jpg');
+}
+
+.cappuccino {
+    background-image: url('../images/cappuccino.jpg');
+}
+
+.latte {
+    background-image: url('../images/latte.jpg');
+}
+
+.drink-info {
+    padding: 1rem;
+}
+
+.drink-info h3 {
+    color: #6f4e37;
+    margin-bottom: 0.5rem;
+}
+
+.drink-info p {
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.size-options {
+    margin: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.size-options label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 0.8rem;
+    background-color: #6f4e37;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #5a3f2d;
+}
+
+.beans-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.bean-item {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.bean-item h3 {
+    color: #6f4e37;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+    .drinks-grid, .beans-grid {
+        grid-template-columns: 1fr;
+    }
+}
+

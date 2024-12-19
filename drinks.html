@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinks Menu - Premium Coffee House</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/drinks.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Premium Coffee & Drinks</h1>
+            <p class="tagline"><i>Your Perfect Coffee Experience</i></p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html">Food Menu</a></li>
+            <li><a href="drinks.html" class="active">Drinks</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sign_up.php" class="login-btn">Login/Signup</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="featured-drinks">
+            <h2>Our Best Drinks</h2>
+            <div class="drinks-grid">
+                <div class="drink-item">
+                    <div class="drink-image espresso"></div>
+                    <div class="drink-info">
+                        <h3>Espresso</h3>
+                        <p>Rich and bold single shot espresso.</p>
+                        <div class="size-options">
+                            <label>
+                                <input type="radio" name="espresso-size" value="single">
+                                Single Shot
+                            </label>
+                            <label>
+                                <input type="radio" name="espresso-size" value="double">
+                                Double Shot
+                            </label>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="drink-item">
+                    <div class="drink-image cappuccino"></div>
+                    <div class="drink-info">
+                        <h3>Cappuccino</h3>
+                        <p>Perfectly balanced coffee with steamed milk.</p>
+                        <div class="size-options">
+                            <label>
+                                <input type="radio" name="cappuccino-size" value="small">
+                                Small
+                            </label>
+                            <label>
+                                <input type="radio" name="cappuccino-size" value="medium">
+                                Medium
+                            </label>
+                            <label>
+                                <input type="radio" name="cappuccino-size" value="large">
+                                Large
+                            </label>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+
+                <div class="drink-item">
+                    <div class="drink-image latte"></div>
+                    <div class="drink-info">
+                        <h3>Latte</h3>
+                        <p>Smooth coffee with creamy milk.</p>
+                        <div class="size-options">
+                            <label>
+                                <input type="radio" name="latte-size" value="small">
+                                Small
+                            </label>
+                            <label>
+                                <input type="radio" name="latte-size" value="medium">
+                                Medium
+                            </label>
+                            <label>
+                                <input type="radio" name="latte-size" value="large">
+                                Large
+                            </label>
+                        </div>
+                        <button class="order-btn">Order Now</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="coffee-beans">
+            <h2>Premium Coffee Beans</h2>
+            <p><b>Try Our Specialty Coffee Beans</b></p>
+            <div class="beans-grid">
+                <div class="bean-item">
+                    <h3>Arabica</h3>
+                    <p>Smooth, sweet taste with hints of chocolate and caramel</p>
+                    <button class="order-btn">Buy Now</button>
+                </div>
+                <div class="bean-item">
+                    <h3>Colombian</h3>
+                    <p>Rich, full-bodied flavor with a sweet aroma</p>
+                    <button class="order-btn">Buy Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Premium Coffee House. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Menu - Premium Coffee House</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Our Food Menu</h1>
+            <p class="tagline"><i>Delicious Dishes Made with Love</i></p>
+        </div>
+    </header>
+
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="menu.html" class="active">Food Menu</a></li>
+            <li><a href="drinks.html">Drinks</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sign_up.php" class="login-btn">Login/Signup</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="menu-section">
+            <h2>Special Food</h2>
+            <div class="menu-grid">
+                <div class="menu-item pizza">
+                    <div class="menu-image"></div>
+                    <h3>Pizza Margherita</h3>
+                    <p><i>A classic Neapolitan pizza, named after Queen Margherita of Savoy.</i></p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+
+                <div class="menu-item pasta">
+                    <div class="menu-image"></div>
+                    <h3>Pasta Carbonara</h3>
+                    <p><i>A rich and creamy pasta dish hailing from Rome, Italy.</i></p>
+                    <button class="order-btn">Order Now</button>
+                </div>
+
+                <div class="menu-item steak">
+                    <div class="menu-image"></div>
+                    <h3>Premium Steak</h3>
+                    <p><i>A versatile dish that can be prepared in countless ways.</i></p>
+                    <div class="cooking-options">
+                        <div class="radio-group">
+                            <input type="radio" id="well-done" name="cooking" value="Well Done">
+                            <label for="well-done">Well Done</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="medium" name="cooking" value="Medium">
+                            <label for="medium">Medium</label>
+                        </div>
+                        <div class="radio-group">
+                            <input type="radio" id="medium-rare" name="cooking" value="Medium Rare">
+                            <label for="medium-rare">Medium Rare</label>
+                        </div>
+                    </div>
+                    <button class="order-btn">Order Now</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Premium Coffee House. All rights reserved.</p>
+    </footer>
+</body>
+</html>
